@@ -1,0 +1,18 @@
+/Blender Chess Instruction Input
+/Replace Values as needed
+/Not a robust program (Don't change anything but the values)
+/
+pauseFrames:10
+moveSpeed:10
+/BoardSetup
+Rw|Nw|Bw|Kw|Qw|Bw|Nw|Rw|
+Pw|Pw|Pw|Pw|Pw|Pw|Pw|Pw|
+  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |
+Pb|Pb|Pb|Pb|Pb|Pb|Pb|Pb
+Rb|Nb|Bb|Qb|Kb|Bb|Nb|Rb
+/MoveList
+b1->c3
+g1->f3
