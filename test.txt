@@ -2,28 +2,27 @@
 //Replace Values as needed
 //Not a robust program (Don't change anything but the values)
 
-
-//Constants
-
 //pauseFrames:
-10
+20
+
 //moveSpeed:
-10
+20
+
 
 
 //BoardSetup
 
-R1|N1|B1|  |Q1|B1|N1|R1|
-P1|P1|P1|  |P1|P1|P1|P1|
-  |  |  |K1|  |  |  |  |
+R1|N1|B1|K1|Q1|B1|N1|R1|
+P1|P1|P1|P1|P1|P1|P1|P1|
   |  |  |  |  |  |  |  |
-  |  |  |P1|  |  |  |  |
-n2|  |  |  |  |  |P2|  |
-P2|P2|P2|P2|P2|P2|  |P2|
-R2|  |B2|Q2|K2|B2|N2|R2|
+  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |
+P2|P2|P2|P2|P2|P2|P2|P2|
+R2|N2|B2|Q2|K2|B2|N2|R2|
 
-/MoveList
 
+//MoveList
 b1->c3
 g1->f3
 f3->g1

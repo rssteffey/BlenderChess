@@ -4,7 +4,11 @@ This will setup and render a scene on a Chessboard, given certain text parameter
 Script to parse text input file
 """
 
+
+#import bpy #Imports the Blender Python API
+
 lineList = [];
+currPiece = [];
 
 #BoardRows
 A=[];
@@ -31,17 +35,18 @@ for i in range(2, 9):
 	for j in range (0, len(lineList[i])):
 		if lineList[i][j]=='|':
 			makeObject(currPiece, i, counter)
-			currPiece=
-			counter++
-		else
+			#currPiece=
+			#test=1
+		else:
 			currPiece.append(lineList[i][j])
 		
 
 
 #Print for testing
 for currLine in lineList:
-	print currLine,
-wait = input("")
+	print(currLine),
+
+	
 
 
 

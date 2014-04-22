@@ -1,0 +1,41 @@
+//Blender Chess Instruction Input
+//Replace Values as needed
+//Not a robust program (Don't change anything but the values)
+
+
+//Constants
+
+//pauseFrames:
+10
+//moveSpeed:
+20
+
+
+//BoardSetup
+
+  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |
+  |k1|p1|  |  |  |  |  |
+  |  |  |r2|  |  |  |  |
+  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |
+k2|  |  |  |  |  |  |  |
+
+
+//-MoveList-
+
+c6->c7  //white
+d5->d6
+b6->b5  //white
+d6->d5
+b5->b4  //white
+d5->d4
+b4->b3  //white
+d4->d3
+b3->c2  //white
+d3->d4
+c7->c8  //white
+//!Qc8
+d4->a4
+c2->b3  //white
